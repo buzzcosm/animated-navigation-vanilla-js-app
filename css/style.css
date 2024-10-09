@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root {
+  --bg-svg: url("../img/floating-cogs.svg");
   --primaryColor: #fff;
   --navColor1: #21292c;
   --navColor2: #aa3e39;
@@ -250,22 +251,22 @@ section#home a {
 }
 
 section#about {
-  background-image: url("img/floating-cogs.svg");
+  background-image: var(--bg-svg);
   background-color: var(--navColor2);
 }
 
 section#skills {
-  background-image: url("img/floating-cogs.svg");
+  background-image: var(--bg-svg);
   background-color: var(--navColor3);
 }
 
 section#projects {
-  background-image: url("img/floating-cogs.svg");
+  background-image: var(--bg-svg);
   background-color: var(--navColor4);
 }
 
 section#contact {
-  background-image: url("img/floating-cogs.svg");
+  background-image: var(--bg-svg);
   background-color: var(--navColor5);
 }
 
